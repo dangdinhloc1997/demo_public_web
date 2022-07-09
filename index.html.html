@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            width: 1000px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        .content > div {
+            margin-bottom: 30px;
+        }
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: rgb(91, 91, 113);
+        }
+        form {
+            width: 500px;
+            margin: auto;
+        }
+        form .username {
+            margin-bottom: 20px;
+        }
+        form label {
+            color: rgb(91, 91, 113);
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        form input {
+            display: block;
+            height: 35px;
+            width: 480px;
+            margin-top: 15px;
+            border-radius: 7px;
+            line-height: 20px;
+            font-size: 20px;
+            padding-left: 20px;
+        }
+        form .form-btn {
+            text-align: center;
+        }
+        form button {
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            background-color: rgb(12, 99, 206);
+            color: #ffff;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div><h2>Đăng nhập</h2></div>
+        <form action="">
+            <div class="username">
+                <label for="username">Tên tài khoản</label>
+                <input type="text" id="name">
+            </div>
+            <div class="password">
+                <label for="pass">Mật khẩu</label>
+                <input type="password" id="pass">
+            </div>
+            <div class="form-btn">
+                <button type="submit">Đăng nhập</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
